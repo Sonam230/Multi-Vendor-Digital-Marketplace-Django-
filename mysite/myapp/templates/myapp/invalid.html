@@ -1,0 +1,10 @@
+{% extends 'myapp/base.html' %} 
+{% block body %}
+<div class="flex flex-col justify-center items-center min-h-screen">
+    <form class="shadow-lg p-10" method="POST">
+        {% csrf_token %}
+    <h1 class="font-bold text-red-500 text-lg">Invalid request</h1>
+ 
+</div>
+   
+{% endblock %}
